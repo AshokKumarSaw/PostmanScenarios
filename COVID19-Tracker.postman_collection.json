@@ -11,11 +11,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}api/v1/cases/general-stats",
+					"raw": "https://corona-virus-stats.herokuapp.com/api/v1/cases/general-stats",
+					"protocol": "https",
 					"host": [
-						"{{base_url}}api"
+						"corona-virus-stats",
+						"herokuapp",
+						"com"
 					],
 					"path": [
+						"api",
 						"v1",
 						"cases",
 						"general-stats"
@@ -31,11 +35,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{base_url}}api/v1/cases/countries-search?search=World",
+					"raw": "https://corona-virus-stats.herokuapp.com/api/v1/cases/countries-search?search=World",
+					"protocol": "https",
 					"host": [
-						"{{base_url}}api"
+						"corona-virus-stats",
+						"herokuapp",
+						"com"
 					],
 					"path": [
+						"api",
 						"v1",
 						"cases",
 						"countries-search"
